@@ -15,6 +15,10 @@
 Payload URL to update CSS https://galicia.wordcamp.org/2025/wp-admin/admin-ajax.php?action=wcrcss_webhook
 */
 
+.home {
+	background-color: red !important;
+}
+
 .sombra-verde,
 .sombra-verde img {
 	box-shadow: 4px 4px 0 0 var(--wp--preset--color--accent-3) !important;
