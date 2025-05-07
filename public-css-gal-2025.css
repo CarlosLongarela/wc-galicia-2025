@@ -1,4 +1,4 @@
-/** Public WordCamp Pontevedra 2024 CSS */
+/** Public WordCamp Galicia 2025 CSS */
 
 /*
 --wp--preset--color--base: #f9f9f9;
@@ -12,7 +12,7 @@
 --wp--preset--color--accent-4: #6a478d; // Lila WC Ponte 2024
 --wp--preset--color--accent-5: #b5bdbc;
 
-Payload URL to update CSS https://pontevedra.wordcamp.org/2024/wp-admin/admin-ajax.php?action=wcrcss_webhook
+Payload URL to update CSS https://galicia.wordcamp.org/2025/wp-admin/admin-ajax.php?action=wcrcss_webhook
 */
 
 .sombra-verde,
@@ -96,14 +96,14 @@ Payload URL to update CSS https://pontevedra.wordcamp.org/2024/wp-admin/admin-aj
 }
 
 .mask-organizer img {
-	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
 	mask-size: 256px;
 	mask-repeat: no-repeat;
 	mask-position: center;
 }
 
 li.wcb_organizer:nth-of-type(even) .mask-organizer img {
-	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado-2.png);
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado-2.png);
 }
 
 .wcb_organizer .entry-content {
@@ -137,19 +137,19 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 }
 
 .wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-chain a::before {
-	background: url(https://pontevedra.wordcamp.org/2024/files/2024/04/www-icon.png) no-repeat center center;
+	background: url(https://galicia.wordcamp.org/2025/files/2025/05/www-icon.png) no-repeat center center;
 }
 
 .wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-twitter a::before {
-	background: url(https://pontevedra.wordcamp.org/2024/files/2024/04/x-icon.png) no-repeat center center;
+	background: url(https://galicia.wordcamp.org/2025/files/2025/05/x-icon.png) no-repeat center center;
 }
 
 .wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-wordpress a::before {
-	background: url(https://pontevedra.wordcamp.org/2024/files/2024/04/wp-icon.png) no-repeat center center;
+	background: url(https://galicia.wordcamp.org/2025/files/2025/05/wp-icon.png) no-repeat center center;
 }
 
 .wcb_organizer li.wp-social-link.wp-block-social-link.wp-social-link-linkedin a::before {
-	background: url(https://pontevedra.wordcamp.org/2024/files/2024/08/icono-linkedin.png) no-repeat center center;
+	background: url(https://galicia.wordcamp.org/2025/files/2025/05/icono-linkedin.png) no-repeat center center;
 }
 
 .fondo-div-galicia {
@@ -210,7 +210,7 @@ li.wcb_organizer:nth-of-type(even) .mask-organizer img {
 .cl-home-news .wp-block-post img,
 .cl-news-pages .wp-block-post img,
 .single-post .wp-block-post-featured-image .wp-post-image {
-	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/05/mascara-entrada-blog.png);
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mascara-entrada-blog.png);
 	mask-repeat: no-repeat;
 	mask-position: center;
 }
@@ -304,14 +304,14 @@ header {
 }
 
 .avatar {
-	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
 	mask-size: 130px;
 	mask-repeat: no-repeat;
 	mask-position: center;
 }
 
 #tix-attendees .tix-attendee-list li:nth-of-type(even) .avatar {
-	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado-2.png);
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado-2.png);
 }
 
 @media screen and (max-width: 850px) {
@@ -454,7 +454,7 @@ header {
 }
 
 .single-wcb_session .sesion-foto-ponente img {
-	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
 	mask-size: 300px;
 	mask-repeat: no-repeat;
 	mask-position: center;
@@ -516,7 +516,7 @@ header {
 }
 
 .single-wcb_speaker .wp-block-wordcamp-avatar img {
-	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
 	mask-size: 150px;
 	mask-repeat: no-repeat;
 	mask-position: center;
@@ -524,7 +524,7 @@ header {
 
 .single-wcb_speaker .wp-block-image.aligncenter.size-full img,
 .single-wcb_session .wp-block-image.size-full img {
-	mask-image: url(https://pontevedra.wordcamp.org/2024/files/2024/04/mask-cuadrado.png);
+	mask-image: url(https://galicia.wordcamp.org/2025/files/2025/05/mask-cuadrado.png);
 	mask-size: 300px;
 	mask-repeat: no-repeat;
 	mask-position: center;
@@ -538,11 +538,13 @@ header {
 	display: none;
 }
 
+/* TODO: Change page ID to the one used in the site GL and ES */
 .postid-4746 h2,
 .postid-4781 h2 {
 	position: relative;
 }
 
+/* TODO: Change page ID to the one used in the site GL and ES */
 .postid-4746 h2::before,
 .postid-4781 h2::before {
 	content: "¿";
@@ -563,27 +565,30 @@ header {
 	font-size: 16px
 }
 
-
+/* TODO: Change page ID to the one used in the site */
 /* Schedule Spanish, change texts */
 .page-id-3218 .wordcamp-schedule__date {
 	color: transparent;
 	font-size: 0 !important;
 }
 
+/* TODO: Change page ID to the one used in the site */
 .page-id-3218 .wordcamp-schedule__date::after {
 	color: var(--wp--preset--color--accent-4);
 	font-size: 48px
 }
 
-
-.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2024-09-20"] .wordcamp-schedule__date::after {
-	content: '20 de septiembre, 2024';
+/* TODO: Change page ID to the one used in the site */
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-03"] .wordcamp-schedule__date::after {
+	content: '3 de octubre, 2025';
 }
 
-.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2024-09-21"] .wordcamp-schedule__date::after {
-	content: '21 de septiembre, 2024';
+/* TODO: Change page ID to the one used in the site */
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-04"] .wordcamp-schedule__date::after {
+	content: '4 de octubre, 2025';
 }
 
-.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2024-09-22"] .wordcamp-schedule__date::after {
-	content: '22 de septiembre, 2024';
+/* TODO: Change page ID to the one used in the site */
+.page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-05"] .wordcamp-schedule__date::after {
+	content: '5 de octubre, 2025';
 }
