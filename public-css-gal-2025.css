@@ -619,3 +619,9 @@ header {
 .table-horario tr:hover {
   background-color: #eef;
 }
+/* Título de comienzo de los talleres */
+.table-horario .fila-destacada {
+  background-color: #dceeff;
+  font-weight: bold;
+  text-align: center;
+}
