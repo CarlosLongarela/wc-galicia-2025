@@ -625,3 +625,7 @@ header {
   font-weight: bold;
   text-align: center;
 }
+/* css necesario para ocultar bloques de versiones de textos que varían en la página según calendario */
+.novisible {
+	display:none;
+}
