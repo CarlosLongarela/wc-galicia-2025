@@ -538,13 +538,13 @@ header {
 	display: none;
 }
 
-/* TODO: Change page ID to the one used in the site GL and ES */
+/* TODO: Change page ID to the one used in the site GL and ES for ? session title */
 .postid-4746 h2,
 .postid-4781 h2 {
 	position: relative;
 }
 
-/* TODO: Change page ID to the one used in the site GL and ES */
+/* TODO: Change page ID to the one used in the site GL and ES for ? session title */
 .postid-4746 h2::before,
 .postid-4781 h2::before {
 	content: "¿";
@@ -565,30 +565,30 @@ header {
 	font-size: 16px
 }
 
-/* TODO: Change page ID to the one used in the site */
+/* Change in 2026: Change page ID to the one used in the site */
 /* Schedule Spanish, change texts */
 .page-id-3218 .wordcamp-schedule__date {
 	color: transparent;
 	font-size: 0 !important;
 }
 
-/* TODO: Change page ID to the one used in the site */
+/* Change in 2026: Change page ID to the one used in the site */
 .page-id-3218 .wordcamp-schedule__date::after {
 	color: var(--wp--preset--color--accent-4);
 	font-size: 48px
 }
 
-/* TODO: Change page ID to the one used in the site */
+/* Change in 2026: Change page ID to the one used in the site */
 .page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-03"] .wordcamp-schedule__date::after {
 	content: '3 de octubre, 2025';
 }
 
-/* TODO: Change page ID to the one used in the site */
+/* Change in 2026: Change page ID to the one used in the site */
 .page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-04"] .wordcamp-schedule__date::after {
 	content: '4 de octubre, 2025';
 }
 
-/* TODO: Change page ID to the one used in the site */
+/* Change in 2026: Change page ID to the one used in the site */
 .page-id-3218 .wp-block-wordcamp-schedule[data-attributes*="2025-10-05"] .wordcamp-schedule__date::after {
 	content: '5 de octubre, 2025';
 }
