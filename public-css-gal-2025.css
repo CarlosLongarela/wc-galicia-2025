@@ -629,3 +629,9 @@ header {
 .novisible {
 	display:none;
 }
+
+/* Organizers: GL: 126 - ES: 3275 */
+.page-id-126 .content-es,
+.page-id-3275 .content-gl {
+	display: none;
+}
