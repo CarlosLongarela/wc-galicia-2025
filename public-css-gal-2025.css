@@ -656,3 +656,10 @@ header {
 .tix_tickets_table.tix-attendee-form td {
 	padding: 10px;
 }
+
+/* TODO: Habilitar cuando esté el programa */
+.hero .suscripciones {
+	display: none !important;
+}
+
+/* TODO: Habilitar cuando esté el programa */
