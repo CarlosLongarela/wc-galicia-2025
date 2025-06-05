@@ -635,3 +635,24 @@ header {
 .page-id-3275 .content-gl {
 	display: none;
 }
+
+/* Customizer Juan */
+.tix_tickets_table.tix-tickets-list {
+	text-align: left;
+}
+
+.tix_tickets_table.tix-tickets-list th {
+	padding: 10px;
+}
+
+.tix-column-remaining, .tix-column-quantity {
+	text-align: center;
+}
+
+.tix-ticket-excerpt span {
+	color: #888;
+}
+
+.tix_tickets_table.tix-attendee-form td {
+	padding: 10px;
+}
