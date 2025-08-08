@@ -539,13 +539,13 @@ header {
 }
 
 /* TODO: Change page ID to the one used in the site GL and ES for ? session title */
-.postid-4746 h2,
+.postid-10170 h2,
 .postid-4781 h2 {
 	position: relative;
 }
 
 /* TODO: Change page ID to the one used in the site GL and ES for ? session title */
-.postid-4746 h2::before,
+.postid-10170 h2::before,
 .postid-4781 h2::before {
 	content: "¿";
 	background-color: var(--wp--preset--color--accent-4);
@@ -655,4 +655,14 @@ header {
 
 .tix_tickets_table.tix-attendee-form td {
 	padding: 10px;
+}
+
+:where(.wp-site-blocks *:focus) {
+	outline-width:2px;
+	outline-style:solid;
+}
+
+.single-wcb_session .wp-block-image.size-full.header-no-mask img,
+.single-wcb_speaker .wp-block-image.size-full.header-no-mask img {
+	mask: none;
 }
